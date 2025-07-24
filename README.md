@@ -1,5 +1,6 @@
 # Prototype-color-sorter-machine
 This project presents a working prototype for automatically sorting objects based on their color. It uses an **OPT101** sensor for color detection and an **STM32F103** microcontroller for system control. Color detection is based on ADC values from the sensor output. Two servo motors handle the movement: one positions the object under the sensor, and the other sorts it into designated bins.
+
 ![Sorter Demo](docs/color-sorter-gif.gif)
 
 ## Components
